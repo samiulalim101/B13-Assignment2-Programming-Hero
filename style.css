@@ -92,6 +92,8 @@ button{
         width: 24px;
     }
 
+    
+
     .nav_content{
         max-width: 400px;
         padding: 18px 20px;
@@ -189,7 +191,7 @@ main{
 }
 .gap{
     display: flex;
-    gap: 5px;
+    gap: 3px;
 }
 
 .green_btn{
@@ -206,6 +208,7 @@ main{
 
 .green_btn img{
     width: 20px;
+    height: 20px;
 }
 
 .button_container{
@@ -216,6 +219,7 @@ main{
 
 @media screen and (max-width: 576px) {
     .mike_container{
+        background-size: 100% 100%;
         transform: scale(0.572);
     }
     main{
@@ -247,6 +251,8 @@ main{
     
     text-align: center;
     margin-bottom: 24px;
+    color: #fff;
+    opacity: 80%;
 
 }
 
@@ -254,4 +260,126 @@ main{
 
 
 
+}
+
+
+
+/* About section */
+
+.about{
+    background-color: #1A0B2E;
+    color: #fff;
+    
+    
+    
+}
+
+.about_container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    
+}
+
+.about .about_top{
+    text-align: center;
+    margin-bottom: 80px;
+   
+}
+
+.about .about_top h2{
+    font-size: 3rem;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.about .about_top .middle_para{
+    font-size: 1rem;
+    margin-bottom: 16px;
+    
+    color: #fff;
+    opacity: 80%;
+    line-height: 20px;
+}
+
+.about .about_top .middle_para p{
+    
+    opacity: 80%;
+    
+}
+
+.about .about_container .about_bottom{
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid #412567;
+    padding-top: 80px;
+}
+
+.about .about_container .about_bottom h3{
+    color: #00FF88;
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
+.about .about_container .about_bottom p{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+    .about_container{
+    max-width: 400px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+
+    
+}
+
+.about .about_top{
+   
+    margin-bottom: 40px;
+   
+}
+
+.about .about_top h2{
+    font-size: 2rem;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.about .about_container .about_bottom{
+
+    
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    
+    padding-top: 40px;
+}
+.box{
+    text-align: center;
+}
+
+.about .about_container .about_bottom .box{
+    align-self: center;
+    
+    
+    
+}
+
+.about .about_container .about_bottom h3{
+    
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+}
+    
 }
